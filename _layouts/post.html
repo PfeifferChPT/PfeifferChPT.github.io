@@ -2,7 +2,10 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
+
 <p class="meta">{{ page.date | date_to_string }}</p>
+
+<p><img src="/assets/img/bg/overlay-pattern.png" style="background-image: url(/assets/img/post-thumbnails/{{post.thumbnail}})" width="150" height="150" alt="{{ post.title }}"></p>
 
 <div class="post">
 {{ content }}
