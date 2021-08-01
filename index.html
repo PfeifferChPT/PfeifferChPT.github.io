@@ -7,7 +7,7 @@ title: ise.pc-cdn.de - Quellennachweise
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" style="background-image: url(/assets/img/post-thumbnails/{{post.thumbnail}})">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}"><img src="/assets/img/bg/overlay-pattern.png" style="background-image: url(/assets/img/post-thumbnails/{{post.thumbnail}})" width=150 height=150> {{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
