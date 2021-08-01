@@ -6,9 +6,8 @@ title:  "Misty Morning"
 thumbnail: Misty_morning031-150x150.jpg
 ---
 
-
-	<div class="entry-content">
-		<blockquote>
+<div class="entry-content">
+<blockquote>
 <table style="font-size: xx-small;" border="1" cellpadding="2">
 <tbody>
 <tr>
@@ -17,7 +16,7 @@ thumbnail: Misty_morning031-150x150.jpg
 </tr>
 <tr>
 <th style="text-align: right;" width="81"><strong>Quelle</strong></th>
-<td>http://astre.in/qw</td>
+<td>http://nipp.es/qw</td>
 </tr>
 <tr>
 <th style="text-align: right;" width="81"><strong>Lizenz</strong></th>
@@ -27,5 +26,4 @@ thumbnail: Misty_morning031-150x150.jpg
 </table>
 <p>&nbsp;</p>
 </blockquote>
-			</div>
-<!-- .entry-content -->
+</div>
