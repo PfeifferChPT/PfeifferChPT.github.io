@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Colocasia esculenta leaf"
-date:   2014-04-20 09:11:03
+date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
+title:  "Colocasia esculenta leaf"
 thumbnail: 320px-2009_03_29Colocasia_esculenta467-150x150.jpg
 ---
 
-	<div class="entry-content">
-		<blockquote>
-<p><img loading="lazy" class=" wp-image-145 alignleft" src="./../../../../wp-content/blogs.dir/5/files/sites/7/2018/07/320px-2009_03_29Colocasia_esculenta467.jpg" alt="Fishgbook" width="60" height="60"> Colocasia esculenta leaf</p>
+<div class="entry-content">
+<blockquote>
+
 <table style="font-size: xx-small" border="1" cellpadding="2">
 <tbody>
 <tr>
@@ -28,6 +28,6 @@ thumbnail: 320px-2009_03_29Colocasia_esculenta467-150x150.jpg
 </tbody>
 </table>
 <p>&nbsp;</p>
+
 </blockquote>
-			</div>
-<!-- .entry-content -->
+</div><!-- .entry-content -->
