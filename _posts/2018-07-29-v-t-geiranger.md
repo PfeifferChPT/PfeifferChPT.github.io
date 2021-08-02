@@ -2,7 +2,7 @@
 layout: post
 date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
-title:  "View to Geiranger"
+title:  "A view to Geiranger and Geirangerfjorden from Flydalsjuvet in Stranda municipality, Møre og Romsdal, Norwayr"
 thumbnail: View_to_Geiranger_from_Flydalsjuvet_2013_June-150x150.jpg
 ---
 
@@ -13,16 +13,32 @@ thumbnail: View_to_Geiranger_from_Flydalsjuvet_2013_June-150x150.jpg
 <tbody>
 <tr>
 <th style="text-align: right" width="81"><strong>Source</strong></th>
-<td>Werk von Wildfeuer</td>
+<td>Werk von Ximonic (Simo Räsänen)</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>http://commons.wikimedia.org/wiki/File:2009_03_29Colocasia_esculenta467.jpg?uselang=de</td>
+<td>http://commons.wikimedia.org/wiki/File:View_to_Geiranger_from_Flydalsjuvet,_2013_June.jpg</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
-<td>Wildfeuer, der Urheberrechtsinhaber dieses Werkes, veröffentlicht es hiermit unter der folgenden Lizenz:
-<p>GNU head Es ist erlaubt, die Datei unter den Bedingungen der GNU-Lizenz für freie Dokumentation, Version 1.2 oder einer späteren Version, veröffentlicht von der Free Software Foundation, zu kopieren, zu verbreiten und/oder zu modifizieren; es gibt keine unveränderlichen Abschnitte, keinen vorderen und keinen hinteren Umschlagtext.Der vollständige Text der Lizenz ist im Kapitel GNU-Lizenz für freie Dokumentation verfügbar.</p>
+<td>der Urheberrechtsinhaber dieses Werkes, veröffentlicht es hiermit unter der folgenden Lizenz:
+
+This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+
+You are free:
+
+to share – to copy, distribute and transmit the work
+
+to remix – to adapt the work
+
+Under the following conditions:
+
+attribution – You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+
+share alike – If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+ 
+
 </td>
 </tr>
 </tbody>
