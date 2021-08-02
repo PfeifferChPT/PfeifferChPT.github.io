@@ -21,24 +21,14 @@ thumbnail: Matsimäe_Pühajärv-150x150.jpg
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
-der Urheberrechtsinhaber dieses Werkes, veröffentlicht es hiermit unter der folgenden Lizenz:
-
+<td>der Urheberrechtsinhaber dieses Werkes, veröffentlicht es hiermit unter der folgenden Lizenz:
 This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
-
 You are free:
-
 to share – to copy, distribute and transmit the work
-
 to remix – to adapt the work
-
 Under the following conditions:
-
 attribution – You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
-
 share alike – If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
-
- 
-
 </td>
 </tr>
 </tbody>
