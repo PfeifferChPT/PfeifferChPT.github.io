@@ -4,6 +4,7 @@ date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  "Scuba Diver"
 thumbnail: scuba-diver-black-silhouette-150x150.png
+highresolutionimg: scuba-diver-black-silhouette-300x142.png
 ---
 
 <div class="entry-content">
