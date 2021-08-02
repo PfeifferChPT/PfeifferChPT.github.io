@@ -4,7 +4,7 @@ date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  A view to Geiranger and Geirangerfjorden
 thumbnail: View_to_Geiranger_from_Flydalsjuvet_2013_June-150x150.jpg
-highresolutionimg: View_to_Geiranger_from_Flydalsjuvet_2013_June-150x150.jpg
+highresolutionimg: View_to_Geiranger_from_Flydalsjuvet_2013_June-300x148.jpg
 ---
 
 <div class="entry-content">
