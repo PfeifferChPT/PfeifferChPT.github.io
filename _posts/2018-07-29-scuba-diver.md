@@ -7,7 +7,6 @@ thumbnail: scuba-diver-black-silhouette-150x150.png
 ---
 
 <div class="entry-content">
-<blockquote>
 
 <table style="font-size: xx-small" border="1" cellpadding="2">
 <tbody>
@@ -31,5 +30,4 @@ Creative Commons Attribution-Share Alike 4.0 License. You are free to share or a
 </table>
 <p>&nbsp;</p>
 
-</blockquote>
 </div><!-- .entry-content -->
