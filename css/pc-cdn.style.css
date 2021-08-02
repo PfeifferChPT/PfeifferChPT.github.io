@@ -1,1 +1,45 @@
+/* When the browser is at least 600px and above */ 
+@media screen and (max-width: 319px) { 
+body {
+  margin: 4px;
+  /* other styling */
+  border: solid 2px;
+  border-radius: 5px;
+	color: #red;
+  font-family: 'Avenir';
+	font-weight: bold;
+  height: auto;
+  text-align: center;
+  //width: 319px;
+}
+}
 
+/* When the browser is at least 600px and above */ 
+@media screen (max-width: 319px) { 
+body {
+  margin: 4px;
+  /* other styling */
+  border: solid 2px;
+  border-radius: 5px;
+	color: #green;
+  font-family: 'Avenir';
+	font-weight: bold;
+  height: auto;
+  text-align: center;
+  //width: 319px;
+}
+
+/* Matches screen between 320px AND 768px */ 
+@media screen (min-width: 320px) and (max-width: 768px) { 
+body {
+  margin: 8px;
+  /* other styling */
+  border: solid 2px;
+  border-radius: 5px;
+	color: #blue;
+  font-family: 'Avenir';
+	font-weight: bold;
+  height: auto;
+  text-align: center;
+  //width: 319px;
+}
