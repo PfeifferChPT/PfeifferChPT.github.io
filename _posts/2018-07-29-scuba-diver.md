@@ -2,8 +2,8 @@
 layout: post
 date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
-title:  "Colocasia esculenta leaf"
-thumbnail: 320px-2009_03_29Colocasia_esculenta467-150x150.jpg
+title:  "Scuba Diver"
+thumbnail: scuba-diver-black-silhouette-150x150.png
 ---
 
 <div class="entry-content">
