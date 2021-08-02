@@ -2,7 +2,7 @@
 layout: post
 date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
-title:  "Matsimäe Pühajärv"
+title:  "Matsimäe Pühajärv sügisel 2014"
 thumbnail: Matsimäe_Pühajärv-150x150.jpg
 ---
 
@@ -13,16 +13,32 @@ thumbnail: Matsimäe_Pühajärv-150x150.jpg
 <tbody>
 <tr>
 <th style="text-align: right" width="81"><strong>Source</strong></th>
-<td>Werk von Wildfeuer</td>
+<td>Werk von Rutake</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>http://commons.wikimedia.org/wiki/File:2009_03_29Colocasia_esculenta467.jpg?uselang=de</td>
+<td>http://commons.wikimedia.org/wiki/File:Matsim%C3%A4e_P%C3%BChaj%C3%A4rv.jpg</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
-<td>Wildfeuer, der Urheberrechtsinhaber dieses Werkes, veröffentlicht es hiermit unter der folgenden Lizenz:
-<p>GNU head Es ist erlaubt, die Datei unter den Bedingungen der GNU-Lizenz für freie Dokumentation, Version 1.2 oder einer späteren Version, veröffentlicht von der Free Software Foundation, zu kopieren, zu verbreiten und/oder zu modifizieren; es gibt keine unveränderlichen Abschnitte, keinen vorderen und keinen hinteren Umschlagtext.Der vollständige Text der Lizenz ist im Kapitel GNU-Lizenz für freie Dokumentation verfügbar.</p>
+der Urheberrechtsinhaber dieses Werkes, veröffentlicht es hiermit unter der folgenden Lizenz:
+
+This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
+
+You are free:
+
+to share – to copy, distribute and transmit the work
+
+to remix – to adapt the work
+
+Under the following conditions:
+
+attribution – You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+
+share alike – If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+ 
+
 </td>
 </tr>
 </tbody>
