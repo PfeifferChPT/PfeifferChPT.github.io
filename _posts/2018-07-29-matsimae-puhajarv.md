@@ -4,6 +4,7 @@ date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  "Matsimäe Pühajärv sügisel 2014"
 thumbnail: Matsimäe_Pühajärv-150x150.jpg
+highresolutionimg: Matsimäe_Pühajärv-300x201.jpg
 ---
 
 <div class="entry-content">
@@ -16,7 +17,7 @@ thumbnail: Matsimäe_Pühajärv-150x150.jpg
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>http://commons.wikimedia.org/wiki/File:Matsim%C3%A4e_P%C3%BChaj%C3%A4rv.jpg</td>
+<td>https://nipp.es/wqyxn</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
