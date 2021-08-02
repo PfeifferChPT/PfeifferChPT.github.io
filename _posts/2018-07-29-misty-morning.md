@@ -4,6 +4,7 @@ date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  "Misty Morning"
 thumbnail: Misty_morning031-150x150.jpg
+highresolutionimg: Misty_morning031-150x150.jpg
 ---
 
 <div class="entry-content">
