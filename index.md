@@ -2,8 +2,6 @@
 layout: default
 title: ise.pc-cdn.de - Quellennachweise 
 ---
-{% include header.html %}
-{% include navigation.html %}
 
 <div id="home">
   <h1>used images</h1>
@@ -12,14 +10,15 @@ title: ise.pc-cdn.de - Quellennachweise
       <li>
        <span>
           {{ post.date | date_to_string }}
-       </span> &raquo; 
-       <a href="{{ post.url }}">
+       </span> 
+       <blockquote>
+        <a href="{{ post.url }}">
           <img src="/assets/img/bg/overlay-pattern.png" 
            style="background-image: url(/assets/img/post-thumbnails/{{post.thumbnail}})" 
            width="150" height="150" alt="{{ post.title }}"> 
-       {{ post.title }}</a>
-          </li>
+           {{ post.title }}</a>
+       </blockquote>
+       </li>
     {% endfor %}
   </ul>
 </div>
-{% include footer.html %}
