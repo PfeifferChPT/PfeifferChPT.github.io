@@ -43,3 +43,18 @@ body {
   text-align: center;
   //width: 319px;
 }
+
+/* Matches screen min 769px */ 
+@media screen (min-width: 769px) { 
+body {
+  margin: 8px;
+  /* other styling */
+  border: solid 2px;
+  border-radius: 5px;
+	color: #black;
+  font-family: 'Avenir';
+	font-weight: bold;
+  height: auto;
+  text-align: center;
+  //width: 319px;
+}
