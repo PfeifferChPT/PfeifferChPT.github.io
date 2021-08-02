@@ -17,7 +17,7 @@ highresolutionimg: Neelum_Valley_Azad_Jammu__Kashmir_Pak-300x200.jpg
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>http://commons.wikimedia.org/wiki/File:Neelum_Valley,_Azad_Jammu_%26_Kashmir,_Pak.jpg</td>
+<td>https://nipp.es/qjyww</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
