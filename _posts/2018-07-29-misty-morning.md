@@ -7,7 +7,7 @@ thumbnail: Misty_morning031-150x150.jpg
 ---
 
 <div class="entry-content">
-<blockquote>
+
 <table style="font-size: xx-small;" border="1" cellpadding="2">
 <tbody>
 <tr>
@@ -25,5 +25,5 @@ thumbnail: Misty_morning031-150x150.jpg
 </tbody>
 </table>
 <p>&nbsp;</p>
-</blockquote>
+
 </div>
