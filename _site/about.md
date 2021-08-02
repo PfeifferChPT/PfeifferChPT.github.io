@@ -1,4 +1,6 @@
 ---
+title: Hallo Welt
+layout: default
 permalink: about.html
 ---
 
