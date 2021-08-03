@@ -2,8 +2,8 @@
 layout: mobile
 date:   2021-08-02 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
-title:  "Colocasia esculenta leaf"
-thumbnail: 320px-2009_03_29Colocasia_esculenta467-150x150.jpg
+title:  "Test"
+thumbnail: dummy-150x150.jpg
 highresolutionimg: img.jpg
 ---
 
