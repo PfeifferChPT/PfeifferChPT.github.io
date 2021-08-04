@@ -2,9 +2,9 @@
 layout: post
 date:   2018-07-29 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
-title:  "Colocasia esculenta leaf"
-thumbnail: 320px-2009_03_29Colocasia_esculenta467-150x150.jpg
-highresolutionimg: img.png
+title:  "overlay pattern"
+thumbnail: overlay-pattern.png
+highresolutionimg: overlay-pattern.png
 ---
 
 <div class="entry-content">
@@ -13,15 +13,15 @@ highresolutionimg: img.png
 <tbody>
 <tr>
 <th style="text-align: right" width="81"><strong>Source</strong></th>
-<td>Urheber</td>
+<td>anubhavsrivastava</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>url</td>
+<td>https://github.com/anubhavsrivastava/gatsby-starter-aerial</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
-<td>Lizenztext</td>
+<td>"MIT"</td>
 </tr>
 </tbody>
 </table>
