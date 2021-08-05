@@ -1,6 +1,6 @@
 name: ISE Quellennachweise
-#markdown: kramdown
-#highlighter: rouge # pygments or rouge or null
+markdown: kramdown
+highlighter: rouge # pygments or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:year/:month/:day/:title:output_ext
 themecolor: blue # blue green grey purple OR red
