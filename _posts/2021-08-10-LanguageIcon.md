@@ -11,15 +11,15 @@ highresolutionimg: LanguageIcon.jpg
 <tbody>
 <tr>
 <th style="text-align: right" width="81"><strong>Source</strong></th>
-<td> </td>
+<td>A’ Design Award & Competition, Onur Müştak Çobanlı and Farhat Datta</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td> </td>
+<td>http://www.languageicon.org/</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
-<td> </td>
+<td>Language Icon is a collaborated creation released with a CC license with following terms: Relax-Attribution. You are suggested but not required to attribute the work when using for internet / digital use. You must attribute it in any other use which is not on internet.</td>
 </tr>
 </tbody>
 </table>
