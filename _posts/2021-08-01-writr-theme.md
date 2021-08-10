@@ -22,7 +22,7 @@ highresolutionimg: writr-theme-screenshot.png
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
 <td>GPLv2 or later http://www.gnu.org/licenses/gpl-2.0.html<br />
-https://raw.githubusercontent.com/pfeifferch/theme_pc-cdn_writr/gh-pages/wp-content/themes/writr/readme.txt</td>
+https://raw.githubusercontent.com/pfeifferch/theme_pc-cdn_writr/gh-pages/content/themes/writr/readme.txt</td>
 </tr>
 </tbody>
 </table>
