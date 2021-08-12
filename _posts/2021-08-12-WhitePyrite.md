@@ -3,7 +3,7 @@ layout: post
 date:   2021-08-12 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  "White Pyrite"
-thumbnail: White_Pyrite preview.jpg
+thumbnail: White_Pyrite%20preview.jpg
 highresolutionimg: White_Pyrite.jpg
 ---
 
