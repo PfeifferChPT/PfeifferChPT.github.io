@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2018-08-12 08:15:00
+date:   2021-08-12 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  "Milky way Galaxy seen from Amphu Laptsa Base Camp."
 thumbnail: Milky_Way_Galaxy_As_Seen_From_Amphulaptsa_Base_Camp.jpg
