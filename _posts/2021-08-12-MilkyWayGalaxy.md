@@ -17,7 +17,7 @@ highresolutionimg: 2560px-Milky_Way_Galaxy_As_Seen_From_Amphulaptsa_Base_Camp.jp
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>https://commons.m.wikimedia.org/wiki/File:Milky_Way_Galaxy_As_Seen_From_Amphulaptsa_Base_Camp.jpg</td>
+<td>https://nipp.es/nerop</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
