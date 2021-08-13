@@ -17,8 +17,7 @@ highresolutionimg: Rechenzentrum_Detail_Colocation_Farbe_orange_auf_blau_ändern
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>https://nipp.es/kbdtz 
-</td>
+<td>https://nipp.es/hvimg</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
