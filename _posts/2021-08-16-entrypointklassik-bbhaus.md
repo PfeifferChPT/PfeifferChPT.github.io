@@ -3,8 +3,8 @@ layout: post
 date:   2021-08-12 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  "entrypoint klassik Haus"
-thumbnail: {{ site.dummyimage }}
-highresolutionimg: {{ site.dummyimage }}
+thumbnail: overlay-pattern.png
+highresolutionimg: overlay-pattern.png
 ---
 
 <div class="entry-content">
