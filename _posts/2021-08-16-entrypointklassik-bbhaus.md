@@ -3,8 +3,8 @@ layout: post
 date:   2021-08-12 08:15:00
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
 title:  "entrypoint klassik Haus"
-thumbnail: overlay-pattern.png
-highresolutionimg: overlay-pattern.png
+thumbnail: bbhaus.jpg
+highresolutionimg: bbhaus.jpg
 ---
 
 <div class="entry-content">
@@ -22,7 +22,7 @@ highresolutionimg: overlay-pattern.png
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
 <td>
-...
+Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
 </td>
 </tr>
 </tbody>
