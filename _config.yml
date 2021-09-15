@@ -1,7 +1,28 @@
-name: ISE Quellennachweise
+name: "ISE Quellennachweise"
+title: "PC-CDN"
+subtitle: "ISE / Quellennachweise"
+description: ""
 markdown: kramdown
 highlighter: rouge # pygments or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:year/:month/:day/:title:output_ext
-themecolor: blue # blue green grey purple OR red
+excerpt_separator: <!--more-->
+templateserverurl: https://template.pc-cdn.de
+themecolor: blue
 dummyimage: overlay-pattern.png
+themeURI: none
+themeBGimage: none
+GallerieDir: none
+hbbhomeurl: none
+livereload: true
+author: Christian Pfeiffer
+
+# Pagination Settings 
+#pagination:
+#  enabled: true
+#  per_page: 2
+#  permalink: '/page/:num/'
+#  title: ' - page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true
