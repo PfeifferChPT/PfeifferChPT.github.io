@@ -1,9 +1,9 @@
 ---
 layout: post
-date:   2021-01-02 03:04:05
+date:   2022-01-01 02:03:04
 categories: Quellennachweise Quellenangaben ISE IMAGE SOURCE EVIDENCE
-title:  "Lorem ipsum"
-thumbnail: overlay-pattern.png
+title:  "Frettchen Fritz"
+thumbnail: Ferret_Frettchen_(135170117).xxl.jpg
 highresolutionimg: overlay-pattern.png
 ---
 
@@ -13,11 +13,11 @@ highresolutionimg: overlay-pattern.png
 <tbody>
 <tr>
 <th style="text-align: right" width="81"><strong>Source</strong></th>
-<td>Urheber</td>
+<td>Matthias</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>url</td>
+<td>https://commons.m.wikimedia.org/wiki/File:Ferret_Frettchen_(135170117).jpeg</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
