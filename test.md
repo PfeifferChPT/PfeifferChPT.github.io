@@ -1,5 +1,5 @@
 ---
-title: Hallo neue Welt
+title: Hallo Welt
 layout: default
 permalink: /test.html
 ---
