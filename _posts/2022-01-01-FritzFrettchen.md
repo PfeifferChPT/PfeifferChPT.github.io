@@ -21,7 +21,7 @@ highresolutionimg: overlay-pattern.png
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
-<td>Lizenztext</td>
+<td>This file is licensed under the Creative Commons Attribution 3.0 Unported license.You are free:to share – to copy, distribute and transmit the workto remix – to adapt the workUnder the following conditions:attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</td>
 </tr>
 </tbody>
 </table>
