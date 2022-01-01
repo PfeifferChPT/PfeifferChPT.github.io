@@ -1,5 +1,5 @@
 ---
-title: Hallo 
+title: Hallo mist
 layout: default
 permalink: /test.html
 ---
