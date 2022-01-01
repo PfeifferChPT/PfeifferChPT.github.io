@@ -17,7 +17,7 @@ highresolutionimg: Ferret_Frettchen_(135236077).xxl.jpg
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Quelle</strong></th>
-<td>https://commons.m.wikimedia.org/wiki/File:Ferret_Frettchen_(135170117).jpeg</td>
+<td>https://commons.m.wikimedia.org/wiki/File:Ferret_Frettchen_(135236077).jpeg</td>
 </tr>
 <tr>
 <th style="text-align: right" width="81"><strong>Lizenz</strong></th>
