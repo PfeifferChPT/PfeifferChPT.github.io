@@ -1,7 +1,7 @@
 name: "ISE Quellennachweise"
 title: "PC-CDN"
 subtitle: "ISE / Quellennachweise"
-description: "" #metadescription
+description: "PC-CDN ISE / Quellennachweise | Bildquellennachweise | image source evidence" #metadescription
 markdown: kramdown
 highlighter: rouge # pygments or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
