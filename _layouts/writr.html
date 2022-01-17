@@ -69,7 +69,10 @@
 	<a id="sidebar-toggle" href="#" title="Seitenleiste"><span class="genericon genericon-close"></span><span class="screen-reader-text">Seitenleiste</span></a>
 
 <div id="secondary" class="widget-area" role="complementary">
-						</div>
+			
+	{% include navigation.html %}
+
+			</div>
 <!-- #secondary -->
 	</div>
 <!-- #sidebar -->
@@ -85,7 +88,6 @@
 	<header class="entry-header">
 		<h1 class="entry-title">{{ page.title }}</h1>
 
-	{% include navigation.html %}
 	
 		<span class="entry-format-badge genericon genericon-document"><span class="screen-reader-text">Seite</span></span>
 	</header><!-- .entry-header -->
