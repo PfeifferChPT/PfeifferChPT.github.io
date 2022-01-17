@@ -53,7 +53,7 @@
 {% include header.html %}
 
 
-<body class="home page-template-default page page-id-8 color-scheme-{{ site.themecolor }} sidebar-closed">
+<body class="home page-template-default page layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}  color-scheme-{{ site.themecolor }} sidebar-closed">
 <div id="page" class="hfeed site">
 	
 	<header id="masthead" class="site-header" role="banner">
@@ -66,7 +66,7 @@
 
 	
 <div id="sidebar" class="sidebar-area">
-	<a id="sidebar-toggle" href="#" title="Seitenleiste"><span class="genericon genericon-close"></span><span class="screen-reader-text">Seitenleiste</span></a>
+	<a id="sidebar-toggle" href="#" title="Seitenleiste"><span class="genericon genericon-menu"></span><span class="screen-reader-text">Seitenleiste</span></a>
 
 <div id="secondary" class="widget-area" role="complementary">
 			
