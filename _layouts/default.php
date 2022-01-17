@@ -1,0 +1,6 @@
+---
+layout: writr
+#layout: thflat
+#layout: lighthouse
+--- 
+{{ content }}
