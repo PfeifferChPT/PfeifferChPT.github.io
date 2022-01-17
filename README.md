@@ -1,4 +1,4 @@
-website ise.pc-cdn.de
+website pc-cdn.de/eu
 =============================
 
-website ise.pc-cdn.de based on jekyll-gulp-sass-browser-sync
+website pc-cdn.de/eu based on jekyll-gulp-sass-browser-sync and various templates
