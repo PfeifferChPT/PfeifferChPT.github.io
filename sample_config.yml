@@ -1,0 +1,37 @@
+name: "template"
+title: "PC-CDN"
+subtitle: "subtitle"
+description: "meta description" #metadescription
+label: "P.C. Netzwerk"
+markdown: kramdown
+highlighter: rouge # pygments or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink: /:year/:month/:day/:title:output_ext
+excerpt_separator: <!--more-->
+templateserverurl: https://template.pc-cdn.de
+themecolor: blue
+themelogo: https://template.pc-cdn.de/assets/img/logo/logo.png
+dummyimage: overlay-pattern.png
+themeURI: none
+themeBGimage: none
+GallerieDir: none
+hbbhomeurl: none
+livereload: true
+author: Christian Pfeiffer
+since: 2017
+
+# hostcredits: GHP (githubpages), IDN (IONOS DeployNow), OHI (Own Server)
+hostcredit: GHP
+FAS: CSS
+# FAS (Fontawesome): CSS (css File) JS (javascript) FASkit (Remote von kit.fontawesome.com)
+
+#deactivaterelatedposts: true
+# Pagination Settings 
+#pagination:
+#  enabled: true
+#  per_page: 2
+#  permalink: '/page/:num/'
+#  title: ' - page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true
