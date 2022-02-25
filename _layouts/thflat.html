@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="{{ site.locale | slice: 0,2 | default: "de" }}" class="no-js">
 <head>
 
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
@@ -15,7 +15,6 @@
 <link rel="dns-prefetch" href="//secure.gravatar.com">
 <link rel="dns-prefetch" href="//fonts.pc-cdn.eu">
 <link rel="dns-prefetch" href="//css.fonts.pc-cdn.eu">
-<link rel="dns-prefetch" href="//s.w.org">
 
 <script type="text/javascript">
 	window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8"}};
