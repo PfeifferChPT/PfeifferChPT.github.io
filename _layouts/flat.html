@@ -33,15 +33,18 @@ img.emoji {
 <link rel="stylesheet" id="flat-theme-css" href="{{ site.themeurl }}/content/themes/flat/assets/css/flat.min.css?ver=1.7.11" media="all">
 <link rel="stylesheet" id="flat-style-css" href="{{ site.themeurl }}/content/themes/flat/style.css?ver=5.8" media="all">
 <link rel="stylesheet" id="themify-shortcodes-css" href="{{ site.themeurl }}/content/plugins/themify-shortcodes/assets/styles.css?ver=5.8" media="all">
+
+<!--
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.9.1/css/jetpack.css" media="all">
-
-
-
 <link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/5.8/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" media="all">
 <link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/5.8/wp-includes/js/mediaelement/wp-mediaelement.min.css" media="all">
 <link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.8/wp-includes/css/dist/block-library/style.min.css" media="all">
 <script src="https://c0.wp.com/c/5.8/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script src="https://c0.wp.com/c/5.8/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+-->
+
+<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
 
 <link href="https://template.pc-cdn.de/assets/lightbox/css/lightbox.css" rel="stylesheet" />
 <script type="text/javascript" src="https://template.pc-cdn.de//assets/lightbox/js/lightbox.js"></script>
@@ -53,7 +56,11 @@ img.emoji {
 <meta name="generator" content="Jekyll">
 
 
-
+{% if site.FAS == "CSS" %}	<link rel="stylesheet" href="https://template.pc-cdn.de/assets/fontawesome/css/all.css">
+{% elsif site.FAS == "JS" %}	<script defer src="https://template.pc-cdn.de/assets/fontawesome/js/all.js"></script>
+{% elsif site.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
+{% else" %}	<!-- no Fontawesome -->
+{% endif %}
 
 <!-- Block Referral Spam By WPDeveloper.net --><style type="text/css">img#wpstats{display:none}</style>
 		<style type="text/css">#page:before, .sidebar-offcanvas, #secondary { background-color: #000000; }@media (max-width: 1199px) { #page &gt; .container { background-color: #000000; } }</style>
