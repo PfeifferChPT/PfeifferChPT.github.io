@@ -1,7 +1,7 @@
 ---
 title: Pro Sidebar
 layout: ProSidebar
-permalink: demo/ProSidebar.html
+permalink: /demo/ProSidebar.html
 SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
 ---
 
