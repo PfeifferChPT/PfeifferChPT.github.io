@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>{{ page.title }} - {{ site.title }} &#8211; {{ site.subtitle }}</title>
+<title>{% if page.title %}{{ page.title }}{% endif %}{% if site.title %} | {% endif %}{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</title>
 <meta name="robots" content="max-image-preview:large">
 
 <link rel="stylesheet" id="genericons-css" href="https://template.pc-cdn.de/assets/genericons/genericons/mod-hbb-genericons.css" type="text/css" media="all">
