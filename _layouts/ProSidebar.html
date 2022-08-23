@@ -23,7 +23,8 @@
                 font-size: 15px;
                 letter-spacing: 3px;
                 font-weight: bold;
-              ">{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} - {{ site.subtitle }}</span>
+              ">{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</span>
+              <p>{% if page.title %}{{ page.title }}{% endif %}</p>
       </div>
       <div class="sidebar-content">
         <nav class="menu open-current-submenu">
