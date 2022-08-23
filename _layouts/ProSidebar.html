@@ -7,9 +7,10 @@
 <link rel='stylesheet' href='https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css'>
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css'>
 <link rel='stylesheet' href='https://template.pc-cdn.de/content/themes/pro-sidebar-template/style.css'>
-
+{% include metafavicon.html %}
 </head>
 <body>
+{% include gads.html %}
 <!-- partial:index.partial.html -->
 <div class="layout has-sidebar fixed-sidebar fixed-header">
   <aside id="sidebar" class="sidebar break-point-lg has-bg-image">
@@ -50,6 +51,11 @@
         {{ content }}
       </div>
       <footer class="footer">
+     <!-- article footer -->
+        {% include article-footer.html %}
+     <!-- page footer -->
+        {% include page-footer.html %}
+     <!-- site footer -->
         {% include site-footer.html %}
       </footer>
     </main>
