@@ -24,9 +24,9 @@
                 letter-spacing: 3px;
                 font-weight: bold;
               ">{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</span>
-         <nav class="menu open-current-submenu">{% if page.title %}{{ page.title }}{% endif %}</nav>
-      </div>
+         </div>
       <div class="sidebar-content">
+        <nav class="menu open-current-submenu">{% if page.title %}{{ page.title }}{% endif %}</nav>
         <nav class="menu open-current-submenu">
           {% include navigation.html %}
         </nav>
