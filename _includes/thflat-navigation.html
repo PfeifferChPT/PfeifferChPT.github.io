@@ -3,7 +3,7 @@
 
 <div class="hgroup">
 <h1 class="site-title display-logo">
-<a href="#" title="home" rel="home"><img itemprop="primaryImageofPage" alt="logo" src="/assets/img/logo/logo.png"></a></h1>
+<a href="#" title="home" rel="home"><img itemprop="primaryImageofPage" alt="logo" src="{{ page.themelogo | default: site.themelogo }}"></a></h1>
 <h2 itemprop="description" class="site-description">{{ site.title | default: page.title }}</h2>
 </div>
 
