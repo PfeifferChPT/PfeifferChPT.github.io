@@ -8,6 +8,13 @@
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css'>
 <link rel='stylesheet' href='{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/pro-sidebar-template/style.css'>
 {% include metafavicon.html %}
+
+{% if site.FAS == "CSS" or  page.FAS == "CSS" %}	<link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/css/all.css">
+{% elsif site.FAS == "JS" or  page.FAS == "JS" %}	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
+{% elsif site.FAS == "FASkit" or  page.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
+{% else %}	<!-- no Fontawesome -->	
+{% endif %}
+
 </head>
 <body>
 {% include gads.html %}
