@@ -40,8 +40,8 @@ img.emoji {
 <script type="text/javascript" src="https://c0.wp.com/c/5.8/wp-includes/js/wp-embed.min.js" id="wp-embed-js"></script>
 
 -->
-<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="{% if site.eutemplateserverurl %}{{ site.eutemplateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="{% if site.eutemplateserverurl %}{{ site.eutemplateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
 
 
 <style id="wp-block-library-inline-css" type="text/css">.has-text-align-justify{text-align:justify;}</style>
