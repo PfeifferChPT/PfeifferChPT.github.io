@@ -1,7 +1,7 @@
 ---
-title: thflat
-layout: thflat
-permalink: /demo/thflat.html
+title: flat
+layout: flat
+permalink: /demo/flat.html
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
