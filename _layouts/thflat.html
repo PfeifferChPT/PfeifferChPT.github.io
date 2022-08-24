@@ -47,20 +47,20 @@ img.emoji {
 <style id="wp-block-library-inline-css" type="text/css">.has-text-align-justify{text-align:justify;}</style>
 <link rel="stylesheet" id="flat-fonts-css" href="https://css.fonts.pc-cdn.eu/css?family=Satisfy" media="all">
 <link rel="stylesheet" id="flat-fonts-css" href="https://css.fonts.pc-cdn.eu/css?family=Roboto-Condensed" media="all">
-<link rel="stylesheet" id="flat-theme-css" href="{{ site.templateserverurl }}/content/themes/flat/assets/css/flat.min.css?ver=1.7.11" media="all">
-<link rel="stylesheet" id="flat-style-css" href="{{ site.templateserverurl }}/content/themes/flat/style.css?ver=5.8" media="all">
-<link rel="stylesheet" id="themify-shortcodes-css" href="{{ site.templateserverurl }}/content/plugins/themify-shortcodes/assets/styles.css?ver=5.8" media="all">
+<link rel="stylesheet" id="flat-theme-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de/{% endif %}/content/themes/flat/assets/css/flat.min.css?ver=1.7.11" media="all">
+<link rel="stylesheet" id="flat-style-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de/{% endif %}/content/themes/flat/style.css?ver=5.8" media="all">
+<link rel="stylesheet" id="themify-shortcodes-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de/{% endif %}/content/plugins/themify-shortcodes/assets/styles.css?ver=5.8" media="all">
 
 {% if site.FAS == "CSS" %}	<link rel="stylesheet" href="https://css.fonts.pc-cdn.eu/FAS/">
 {% elsif site.FAS == "JS" %}	<script defer src="https://template.pc-cdn.de/assets/fontawesome/js/all.js"></script>
 {% elsif site.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
-{% else" %}	<!-- no Fontawesome -->	
+{% else %}	<!-- no Fontawesome -->	
 {% endif %}
-<link href="{{ site.templateserverurl }}/assets/lightbox/css/lightbox.css" rel="stylesheet" />
-<script type="text/javascript" src="{{ site.templateserverurl }}/assets/lightbox/js/lightbox.js"></script>
-<script src="{{ site.templateserverurl }}/content/themes/flat/assets/js/flat.min.js?ver=1.7.11" id="flat-js-js"></script>
+<link href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de/{% endif %}/assets/lightbox/css/lightbox.css" rel="stylesheet" />
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de/{% endif %}/assets/lightbox/js/lightbox.js"></script>
+<script src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de/{% endif %}/content/themes/flat/assets/js/flat.min.js?ver=1.7.11" id="flat-js-js"></script>
 <!--[if lt IE 9]>
-<script src='{{ site.templateserverurl }}/content/themes/flat/assets/js/html5shiv.min.js?ver=3.7.2' id='html5shiv-js'></script>
+<script src='{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de/{% endif %}/content/themes/flat/assets/js/html5shiv.min.js?ver=3.7.2' id='html5shiv-js'></script>
 <![endif]-->
 <meta name="generator" content="Jekyll">
 
