@@ -7,12 +7,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style id="wp-block-library-inline-css" type="text/css">.has-text-align-justify{text-align:justify;}</style>
 <link rel="stylesheet" id="writr-montserrat-css" href="https://css.fonts.pc-cdn.eu/css/?family=Montserrat" type="text/css" media="all">
-<link rel="stylesheet" id="genericons-css" href="https://template.pc-cdn.de/assets/genericons/genericons/genericons.css" type="text/css" media="all">
-<link rel="stylesheet" id="writr-style-css" href="https://template.pc-cdn.de/content/themes/writr-child/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="writr-color-scheme-css" href="https://template.pc-cdn.de/content/themes/writr/css/{{ site.themecolor }}.css" type="text/css" media="all">
-<link rel="stylesheet" id="writr-wider-style-css" href="https://template.pc-cdn.de/content/themes/writr/css/wider.css" type="text/css" media="all">
-<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
+<link rel="stylesheet" id="genericons-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/genericons/genericons/genericons.css" type="text/css" media="all">
+<link rel="stylesheet" id="writr-style-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr-child/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="writr-color-scheme-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/css/{{ site.themecolor }}.css" type="text/css" media="all">
+<link rel="stylesheet" id="writr-wider-style-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/css/wider.css" type="text/css" media="all">
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
 <!--
 <link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/5.7.2/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" type="text/css" media="all">
@@ -21,15 +21,15 @@
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 -->
-{% if site.FAS == "CSS" %}	<link rel="stylesheet" href="https://template.pc-cdn.de/assets/fontawesome/css/all.css">
-{% elsif site.FAS == "JS" %}	<script defer src="https://template.pc-cdn.de/assets/fontawesome/js/all.js"></script>
+{% if site.FAS == "CSS" %}	<link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/css/all.css">
+{% elsif site.FAS == "JS" %}	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
 {% elsif site.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
 {% else" %}	<!-- no Fontawesome -->	
 {% endif %}
 
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://template.pc-cdn.de/wp-includes/wlwmanifest.xml"> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="Jekyll">
-<link rel="canonical" href="https://template.pc-cdn.de/index.html">
+<link rel="canonical" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/index.html">
 
 <style type="text/css" media="screen">.extlink sup:after {
 		content: "\2197";
@@ -107,11 +107,11 @@
 
 </div>
 
-<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/photon/photon.js" id="jetpack-photon-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/navigation.js" id="writr-navigation-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/skip-link-focus-fix.js" id="writr-skip-link-focus-fix-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.eu/assets/js/underscore-js//underscore.min.js" id="underscore-js"></script>
-<script type="text/javascript" src="https://template.pc-cdn.de/content/themes/writr/js/writr.js" id="writr-script-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/photon/photon.js" id="jetpack-photon-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/js/navigation.js" id="writr-navigation-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/js/skip-link-focus-fix.js" id="writr-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/underscore-js/underscore.min.js" id="underscore-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/js/writr.js" id="writr-script-js"></script>
 
 </body>
 </html>
