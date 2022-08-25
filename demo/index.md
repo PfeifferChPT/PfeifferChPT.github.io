@@ -16,7 +16,7 @@ permalink: /demo/index.html
 Vor for
 {% for file in site.static_files %}
 Vor If 1:
- {% if file.path contains "/demo/" %}
+ {% if file.path contains "/demo" %}
 Vor If 2:
   {% if file.extname == '.md' %}
 In der If2:
