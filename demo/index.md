@@ -15,7 +15,7 @@ permalink: /demo/index.html
 
 
 {% for file in site.static_files %}
- {% if file.path contains "/demo" %}
+ {% if file.path contains "/demo/" %}
   {% if file.extname == '.md' %}
 
     {% assign filenameparts = file.path | split: "/" %}
