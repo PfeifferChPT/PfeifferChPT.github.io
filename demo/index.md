@@ -13,5 +13,8 @@ permalink: /demo/index.html
 <a href="writr.html">writr</a>  
 -->
 
+{% for file in "/demo" %} <a href="{{ file.url }}">{{ file.url }}</a> {% endfor %}
 
+<!--
 {% include list-files.html folder="/demo" %}
+-->
