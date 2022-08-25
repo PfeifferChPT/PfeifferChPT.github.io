@@ -12,10 +12,5 @@ permalink: /demo/index.html
 <a href="thflat.html">thflat</a>  
 <a href="writr.html">writr</a>  
 -->
-A:  
-{% for file in '/demo' %}
-<a href="{{ file.url }}">{{ file.url }}</a>  
-{{ file.path }}  
-{{ file.extname }}  
 
-{% endfor %}
+{% include list-files.html folder="/demo" %}
