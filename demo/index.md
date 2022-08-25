@@ -13,18 +13,5 @@ permalink: /demo/index.html
 <a href="writr.html">writr</a>  
 -->
 
-Vor for
-{% for file in site.static_files %}
-Vor If 1:
- {% if file.path contains "/demo" %}
-Vor If 2:
-  {% if file.extname == '.md' %}
-In der If2:
 
-    {% assign filenameparts = file.path | split: "/" %}
-    {% assign filename = filenameparts | last | replace: file.extname,"" %}
-    <a href="{{ file.path | relative_url }}">{{ site.url | replace: '.md','.html'}} - {{ filename }}</a>  
-
-  {% endif %}
- {% endif %}
-{% endfor %}
+{% include list-files.html folder="/demo" %}
