@@ -7,8 +7,6 @@ permalink: /demo/index.html
 <a href="creativeily.html">creativeily</a>  
 <a href="flat.html">flat</a>  
 <a href="lighthouse.html">lighthouse</a>   
-<a href="none.html">none</a>  
-<a href="print.html">print</a>  
 <a href="ProSidebar.html">ProSidebar</a>  
 <a href="thflat.html">thflat</a>  
 <a href="writr.html">writr</a>  
@@ -32,6 +30,7 @@ permalink: /demo/index.html
 <a href="post-bautagebuch.html">post-bautagebuch</a>  
 <a href="post.html">post</a>  
 <a href="posts.html">posts</a>  
+<a href="print.html">print</a>  
 <a href="search.html">search</a>  
 <a href="single.html">single</a>  
 <a href="splash.html">splash</a>  
