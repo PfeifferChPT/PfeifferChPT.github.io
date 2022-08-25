@@ -3,7 +3,7 @@
 
 <div class="hgroup">
 <h1 class="site-title display-logo">
-<a href="#" title="home" rel="home"><img itemprop="primaryImageofPage" alt="logo" src="{{ page.themelogo | default: site.themelogo }}"></a></h1>
+<a href="#" title="home" rel="home"><img itemprop="primaryImageofPage" alt="logo" src="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://user-images.githubusercontent.com/25878302/144499035-2911184c-76d3-4611-86e7-bc4e8ff84ff5.jpg{% endif %}" /></a></h1>
 <h2 itemprop="description" class="site-description">{{ site.title | default: page.title }}</h2>
 </div>
 
