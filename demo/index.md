@@ -13,11 +13,11 @@ permalink: /demo/index.html
 <a href="writr.html">writr</a>  
 -->
 A:  
-{% for file in "/demo" %} <a href="{{ file.url }}">{{ file.url }}</a> {% endfor %}
+{% for file in '/demo/' %} <a href="{{ file.url }}">{{ file.url }}</a> {% endfor %}
 
 
 B:  
-{% for file in "/demo" %}
+{% for file in '/demo' %}
   {% if file.extname == ".md" -%}
      * [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
   {%- endif %}
