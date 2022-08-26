@@ -2,6 +2,8 @@
 title: flat
 layout: flat
 permalink: /demo/flat.html
+FAS: CSS
+themelogo: https://template.pc-cdn.de/assets/img/logo/logo.png
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
