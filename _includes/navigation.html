@@ -14,6 +14,8 @@
 <img src="{{ site.themelogo }}">
 {% endif %}
 
+{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}
+
 <nav class="site-nav">
 <ul>
  <li><a href="/"        style="text-decoration:none; color:#fff">Home</a></li>
