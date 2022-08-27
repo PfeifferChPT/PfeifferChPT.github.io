@@ -33,15 +33,13 @@ img.emoji {
 <link rel="stylesheet" id="dashicons-css" href="https://c0.wp.com/c/5.7.2/wp-includes/css/dashicons.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="creativeily-style-css" href="https://template.pc-cdn.de/content/themes/fullscreenly/style.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.8.1/css/jetpack.css" type="text/css" media="all">
-<!-- FAS-css
-<link rel="stylesheet" href="https://template.pc-cdn.de/assets/fontawesome/css/all.css">
---->
-<!-- FAS-js -->
-<script defer src="https://template.pc-cdn.de/assets/fontawesome/js/all.js"></script>
-<!-- -->
-<!-- FAS-fascdn
-<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
--->
+
+{% if site.FAS == "CSS" or page.FAS == "CSS" %}	<link rel="stylesheet" href="https://css.fonts.pc-cdn.eu/FAS/">
+{% elsif site.FAS == "JS" or page.FAS == "JS" %}	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
+{% elsif site.FAS == "FASkit" or page.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
+{% else %}	<!-- Fontawesome JS as default -->	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
+{% endif %}
+
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <script type="text/javascript" src="https://template.pc-cdn.de/content/themes/creativeily/assets/js/creativeily.js?ver=5.7.2" id="creativeily-script-js"></script>
@@ -292,7 +290,6 @@ img.emoji {
 </div>
 <!-- #page -->
 <script type="text/javascript" src="https://c0.wp.com/p/jetpack/9.8.1/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
-<script type="text/javascript" src="https://c0.wp.com/p/jetpack/9.8.1/_inc/build/widgets/eu-cookie-law/eu-cookie-law.min.js" id="eu-cookie-law-script-js"></script>
 <script type="text/javascript" id="jetpack-lazy-images-js-extra">
 /* <![CDATA[ */
 var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
