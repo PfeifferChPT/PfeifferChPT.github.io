@@ -1,8 +1,7 @@
 ---
-title: single
-layout: single
-permalink: /demo/single.html
-SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
+title: 5up-read-only
+layout: 5up-read-only
+permalink: /demo/5up-read-only.html
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
