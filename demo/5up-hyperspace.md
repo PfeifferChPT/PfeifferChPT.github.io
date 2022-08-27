@@ -1,7 +1,7 @@
 ---
-title: page
-layout: page
-permalink: /demo/page.html
+title: 5up-hyperspace
+layout: 5up-hyperspace
+permalink: /demo/5up-hyperspace.html
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
