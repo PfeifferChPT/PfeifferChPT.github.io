@@ -1,8 +1,7 @@
 ---
-title: tags
-layout: tags
-permalink: /demo/tags.html
-SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
+title: 5up-astral
+layout: 5up-astral
+permalink: /demo/5up-astral.html
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
