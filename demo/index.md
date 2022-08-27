@@ -21,6 +21,7 @@ Angepasste Darstellungen:
 <a href="imprintlh.html">imprintlh</a>  
 <a href="imprintcasa.html">imprintcasa</a>  
 <a href="none.html">none</a>  
+<a href="post.html">post</a>  
 <a href="post-pc-cdn.html">post-pc-cdn</a>  
 <a href="post-bautagebuch.html">post-bautagebuch</a>  
 
@@ -37,7 +38,6 @@ Schrott:
 <a href="home.html">home</a>  
 <a href="old.default.html">old.default</a>  
 <a href="paginatorposts.html">paginatorposts</a>  
-<a href="post.html">post</a>  
 <a href="posts.html">posts</a>  
 <a href="search.html">search</a>  
 <a href="single.html">single</a>  
