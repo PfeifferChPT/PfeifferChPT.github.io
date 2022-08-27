@@ -1,8 +1,7 @@
 ---
-title: archive-taxonomy
-layout: archive-taxonomy
-permalink: /demo/archive-taxonomy.html
-SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
+title: page
+layout: page
+permalink: /demo/page.html
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
