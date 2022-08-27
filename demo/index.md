@@ -11,7 +11,8 @@ Komplette Designs:
 <a href="ProSidebar.html">ProSidebar</a>  
 <a href="thflat.html">thflat</a>  
 <a href="writr.html">writr</a>  
-  
+<a href="light-template.html">light-template</a>  
+    
   
 Angepasste Darstellungen:   
   
@@ -25,11 +26,8 @@ Angepasste Darstellungen:
 <a href="post.html">post</a>  
 <a href="post-pc-cdn.html">post-pc-cdn</a>  
 <a href="post-bautagebuch.html">post-bautagebuch</a>  
-
+  
 <a href="compress.html">compress</a>  
 <a href="print.html">print</a>  
   
-  
-
 <a href="page.html">page</a>  
-
