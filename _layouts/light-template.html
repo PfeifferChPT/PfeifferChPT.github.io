@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>{{ page.title | default: site.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/fontawesome/css/all.css">
+<link rel="stylesheet" href="https://template.pc-cdn.de/content/themes/light-template/style.css">
+
+</head>
+<body>
+
+<div class="header">
+<h1>{{ page.title | default: site.title }}</h1>
+ 
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+{% include navigation.html %}
+  </div>
+
+  <div class="col-6 col-s-9">
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+
+{{ content }} 
+     
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  {% include site-footer.html %}
+</div>
+
+</body>
+</html>
