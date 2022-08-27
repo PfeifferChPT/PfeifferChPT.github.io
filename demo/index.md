@@ -26,21 +26,10 @@ Angepasste Darstellungen:
 <a href="post-pc-cdn.html">post-pc-cdn</a>  
 <a href="post-bautagebuch.html">post-bautagebuch</a>  
 
-<a href="compress.html">compress</a>
+<a href="compress.html">compress</a>  
 <a href="print.html">print</a>  
   
   
-Schrott:  
-  
-<a href="archive-taxonomy.html">archive-taxonomy</a>  
-<a href="archive.html">archive</a>  
-<a href="category.html">category</a>  
-<a href="collection.html">collection</a>    
-<a href="home.html">home</a>  
-<a href="old.default.html">old.default</a>  
-<a href="posts.html">posts</a>  
-<a href="search.html">search</a>  
-<a href="single.html">single</a>  
-<a href="splash.html">splash</a>  
-<a href="tag.html">tag</a>  
-<a href="tags.html">tags</a>
+
+<a href="page.html">page</a>  
+
