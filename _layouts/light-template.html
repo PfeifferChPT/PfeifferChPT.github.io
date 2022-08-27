@@ -10,21 +10,22 @@
 
 <div class="header">
 <h1>{{ page.title | default: site.title }}</h1>
- 
 </div>
 
 <div class="row">
   <div class="col-3 col-s-3 menu">
-{% include navigation.html %}
+  {% include navigation.html %}
   </div>
 
-  <div class="col-6 col-s-9">
-  </div>
+<div class="col-6 col-s-9">
+  <h1>{{ page.title | default: site.title }}</h1>
+  {{ content }}
+</div>
 
   <div class="col-3 col-s-12">
     <div class="aside">
 
-{{ content }} 
+{% include sidebar.html %}
      
     </div>
   </div>
