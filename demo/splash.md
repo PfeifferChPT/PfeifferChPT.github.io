@@ -1,8 +1,7 @@
 ---
-title: splash
-layout: splash
-permalink: /demo/splash.html
-SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
+title: light-template
+layout: light-template
+permalink: /demo/light-template.html
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
