@@ -49,7 +49,7 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
+									<img src="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}template.pc-cdn.eu/assets/bg-images/onepixel-transparent.png{% endif %}" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
