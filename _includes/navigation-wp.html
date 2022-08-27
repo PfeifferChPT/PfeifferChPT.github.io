@@ -13,7 +13,9 @@
 <img src="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.eu/assets/bg-images/onepixel-transparent.png{% endif %}">
 
 <nav class="site-nav">
+<ul>
 {% include navigation.html %}
+</ul>
 </nav>
 
 {% if site.name == "ISE Quellennachweise" %}
