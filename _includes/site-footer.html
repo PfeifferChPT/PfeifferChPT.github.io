@@ -12,9 +12,9 @@
 {% else" %}
 		<!-- no HC set -->	
 {% endif %}
-	{% if page.layout != "5up-aerial" OR page.layout != "5up-astral" OR page.layout != "5up-hyperspace" OR page.layout != "5up-read-only" OR site.layout != "5up-aerial" OR site.layout != "5up-astral" OR site.layout != "5up-hyperspace" OR site.layout != "5up-read-only" %}<br/>{% endif %}
+	{% if page.layout != "5up-aerial" or page.layout != "5up-astral" or page.layout != "5up-hyperspace" or page.layout != "5up-read-only" or site.layout != "5up-aerial" or site.layout != "5up-astral" or site.layout != "5up-hyperspace" or site.layout != "5up-read-only" %}<br/>{% endif %}
 		<a href="https://pc-cdn.statuspage.io/"><img src="https://img.shields.io/badge/Status%C3%BCbersicht%20auf%C2%A0%C2%A0-Statuspage-%23172B4D?logo=Statuspage" alt="Statuspage"></a>
-	{% if page.layout != "5up-aerial" OR page.layout != "5up-astral" OR page.layout != "5up-hyperspace" OR page.layout != "5up-read-only" OR site.layout != "5up-aerial" OR site.layout != "5up-astral" OR site.layout != "5up-hyperspace" OR site.layout != "5up-read-only" %}<br/>{% endif %}
+	{% if page.layout != "5up-aerial" or page.layout != "5up-astral" or page.layout != "5up-hyperspace" or page.layout != "5up-read-only" or site.layout != "5up-aerial" or site.layout != "5up-astral" or site.layout != "5up-hyperspace" or site.layout != "5up-read-only" %}<br/>{% endif %}
 	<statusbanner onload="statusEmbedTest()">
 	  <script src="https://pc-cdn.statuspage.io/embed/script.js"></script>
 	</statusbanner>
@@ -22,8 +22,7 @@
 	  <a href="http://acmeapico.statuspage.io" target="_blank"> <span class="color-dot"></span> <span class="color-description"></span></a>
 	</div>
 	</span><!-- footer info -->
-</div>
-
 {% if page.layout == "5up-aerial" or page.layout == "5up-astral" or page.layout == "5up-hyperspace" or page.layout == "5up-read-only" or site.layout == "5up-aerial" or site.layout == "5up-astral" or site.layout == "5up-hyperspace" or site.layout == "5up-read-only" %}
-5up Template
-{% endif %}
+{% include footer-5up-credit.html %}
+{% endif %}	
+</div>
