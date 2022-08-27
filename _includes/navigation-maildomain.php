@@ -1,0 +1,12 @@
+<ul id="menu-navigation" class="">
+<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-9"><a href="{{ site.url }}{{ site.baseurl }}" aria-current="page">Home</a></li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10">
+<a href="https://goto.pc-cdn.de/kontakt">Kontakt</a>
+<ul class="sub-menu">
+	<li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="https://goto.pc-cdn.de/{{ site.impress }}">Impressum</a></li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://goto.pc-cdn.de/datenschutz">Datenschutzerklärung</a></li>
+	<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="https://goto.pc-cdn.de/haftungsausschluss">Haftungsausschluss</a></li>
+	<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="https://goto.pc-cdn.de/quellenangaben">Quellennachweise</a></li>
+</ul>
+</li>
+</ul>
