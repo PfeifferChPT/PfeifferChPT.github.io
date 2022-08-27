@@ -33,7 +33,7 @@ Schrott:
   
 <a href="archive-taxonomy.html">archive-taxonomy</a>  
 <a href="archive.html">archive</a>  
-<a href="categories.html">categories</a>  
+<a href="category.html">category</a>  
 <a href="collection.html">collection</a>    
 <a href="home.html">home</a>  
 <a href="old.default.html">old.default</a>  
