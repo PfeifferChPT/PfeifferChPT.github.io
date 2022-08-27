@@ -8,7 +8,7 @@
 -->
 
 
-<div class="header-position">
+<ddiv class="header-position">
 
 <img src="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.eu/assets/bg-images/onepixel-transparent.png{% endif %}">
 
@@ -30,16 +30,16 @@
 <nav class="categ-nav">
 Kategorie Auswahl:
 <!-- categories -->
-<div id="archives"> 
+<ddiv id="archives"> 
 <ul>
  {% for category in site.categories %} 
  {% capture category_name %}{{ category | first }}{% endcapture %} 
   <li><a href="/categories/index.html#{{ category_name | slugize }}" name="{{ category_name | slugize }}">{{ category_name | slugize }}</a></li>
  {% endfor %}
 </ul>
-</div>
+</ddiv>
 <!-- /categories -->
 </nav>
 {% endif %}
 
-</div>
+</ddiv>
