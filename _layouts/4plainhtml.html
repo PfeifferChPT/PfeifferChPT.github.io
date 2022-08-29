@@ -1,8 +1,10 @@
 <html lang="{{ site.locale | slice: 0,2 | default: "de" }}">
-
+<head>
 <title>{% if page.title %}{{ page.title }}{% endif %}{% if site.title %} | {% endif %}{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}" />
 
 {% include metafavicon.html %}
 
 {{ content}}
+</body>
+</html>
