@@ -12,7 +12,7 @@ Komplette Designs:
 <a href="thflat.html">thflat</a>  
 <a href="writr.html">writr</a>  
 
-<a href="SimpleCSSWaves.html">SimpleCSSWaves.html</a> 
+<a href="SimpleCSSWaves.html">Simple CSS Waves</a> 
 
 <!-- 
 <a href="5up-astral.html">5up-astral</a>  
