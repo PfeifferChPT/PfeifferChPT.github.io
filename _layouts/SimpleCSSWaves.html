@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="{{ site.locale | slice: 0,2 | default: "de" }}">
 <head>
   <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }}{% endif %}{% if site.title %} | {% endif %}{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</title>
   <link rel="stylesheet" href="https://template.pc-cdn.de/content/themes/SimpleCSSWaves/style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <!-- partial:index.partial.html -->
