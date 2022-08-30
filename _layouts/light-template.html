@@ -1,8 +1,7 @@
 <html>
 <head>
-<title>{{ page.title | default: site.title }}</title>
+<title>{% if page.title %}{{ page.title }}{% endif %}{% if site.title %} | {% endif %}{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/css/all.css">
 <link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/light-template/style.css">
 {% include tech-fas.html %}
 </head>
