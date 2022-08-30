@@ -11,14 +11,10 @@
 <link rel="stylesheet" id="writr-style-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr-child/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="writr-color-scheme-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/css/{{ site.themecolor }}.css" type="text/css" media="all">
 <link rel="stylesheet" id="writr-wider-style-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/css/wider.css" type="text/css" media="all">
-<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
 
-{% if site.FAS == "CSS" or  page.FAS == "CSS" %}	<link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/css/all.css">
-{% elsif site.FAS == "JS" or  page.FAS == "JS" %}	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
-{% elsif site.FAS == "FASkit" or  page.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
-{% else %}	<!-- no Fontawesome -->	
-{% endif %}
+{% include tech-fas.html %}
 
 
 <meta name="generator" content="Jekyll">
@@ -99,10 +95,10 @@
 
 </div>
 
-<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/photon/photon.js" id="jetpack-photon-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/photon/photon.js" id="jetpack-photon-js"></script>
 <script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/js/navigation.js" id="writr-navigation-js"></script>
 <script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/js/skip-link-focus-fix.js" id="writr-skip-link-focus-fix-js"></script>
-<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/underscore-js/underscore-min.js" id="underscore-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/underscore-js/underscore-min.js" id="underscore-js"></script>
 <script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/writr/js/writr.js" id="writr-script-js"></script>
 
 </body>

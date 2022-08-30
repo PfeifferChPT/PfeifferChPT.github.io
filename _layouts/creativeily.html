@@ -34,11 +34,7 @@ img.emoji {
 <link rel="stylesheet" id="creativeily-style-css" href="https://template.pc-cdn.de/content/themes/fullscreenly/style.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.8.1/css/jetpack.css" type="text/css" media="all">
 
-{% if site.FAS == "CSS" or page.FAS == "CSS" %}	<link rel="stylesheet" href="https://css.fonts.pc-cdn.eu/FAS/">
-{% elsif site.FAS == "JS" or page.FAS == "JS" %}	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
-{% elsif site.FAS == "FASkit" or page.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
-{% else %}	<!-- Fontawesome JS as default -->	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
-{% endif %}
+{% include tech-fas.html %}
 
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>

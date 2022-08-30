@@ -40,8 +40,8 @@ img.emoji {
 <script type="text/javascript" src="https://c0.wp.com/c/5.8/wp-includes/js/wp-embed.min.js" id="wp-embed-js"></script>
 
 -->
-<script type="text/javascript" src="{% if site.eutemplateserverurl %}{{ site.eutemplateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="{% if site.eutemplateserverurl %}{{ site.eutemplateserverurl }}{% else %}https://template.pc-cdn.eu{% endif %}/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
 
 
 <style id="wp-block-library-inline-css" type="text/css">.has-text-align-justify{text-align:justify;}</style>
@@ -51,11 +51,8 @@ img.emoji {
 <link rel="stylesheet" id="flat-style-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/flat/style.css?ver=5.8" media="all">
 <link rel="stylesheet" id="themify-shortcodes-css" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/plugins/themify-shortcodes/assets/styles.css?ver=5.8" media="all">
 
-{% if site.FAS == "CSS" or page.FAS == "CSS" %}	<link rel="stylesheet" href="https://css.fonts.pc-cdn.eu/FAS/">
-{% elsif site.FAS == "JS" or page.FAS == "JS" %}	<script defer src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/js/all.js"></script>
-{% elsif site.FAS == "FASkit" or page.FAS == "FASkit" %}	<script src="https://kit.fontawesome.com/b6cffdb62c.js" crossorigin="anonymous"></script>
-{% else %}	<!-- no Fontawesome -->	
-{% endif %}
+{% include tech-fas.html %}
+
 <link href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/lightbox/css/lightbox.css" rel="stylesheet" />
 <script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/lightbox/js/lightbox.js"></script>
 <script src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/flat/assets/js/flat.min.js?ver=1.7.11" id="flat-js-js"></script>
@@ -76,10 +73,10 @@ img.emoji {
 
 {% include gads.html %}
 {% include metafavicon.html %}
-<link rel="icon" href="./content/uploads/2018/06/cropped-pfeiffercasahouse320_transpa-32x32.png" sizes="32x32">
-<link rel="icon" href="./content/uploads/2018/06/cropped-pfeiffercasahouse320_transpa-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href=" /content/uploads/2018/06/cropped-pfeiffercasahouse320_transpa-180x180.png">
-<meta name="msapplication-TileImage" content="./content/uploads/2018/06/cropped-pfeiffercasahouse320_transpa-270x270.png">
+<link rel="icon" 			href="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}" sizes="32x32">
+<link rel="icon" 			href="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}" sizes="192x192">
+<link rel="apple-touch-icon" 		href="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}">
+<meta name="msapplication-TileImage" content="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}">
 	</head>
 
 <body class="page-template-default page " itemscope itemtype="http://schema.org/WebPage">
