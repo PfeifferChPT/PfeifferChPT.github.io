@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de-DE" class="no-js no-svg">
+<html lang="{{ site.locale | slice: 0,2 | default: "de" }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -170,18 +170,18 @@ img.emoji {
 				);
 			</script>
 		
-<!-- Jetpack Open Graph Tags -->
+<!--  Open Graph Tags -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ page.title | default: site.name }}">
 <meta property="og:description" content="Mail-Domain von {{ page.title | default: site.name }}">
 <meta property="og:url" content="/">
 <meta property="og:site_name" content="{{ page.title | default: site.name }}">
-<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
-<meta property="og:locale" content="de_DE">
+<meta property="og:image" content="{% if page.ogmtimage %}{{ page.ogmtimage }}{% elsif site.ogmtimage %}{{ site.ogmtimage }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}">
+<meta property="og:locale" content="{{ site.locale | slice: 0,2 | default: "de" }}">
 <meta name="twitter:text:title" content="E-Mail Domain von {{ page.title | default: site.name }}">
 <meta name="twitter:card" content="summary">
 
-<!-- End Jetpack Open Graph Tags -->
+<!-- End  Open Graph Tags -->
 
 {% include metafavicon.html %}
 {% include header.html %}
