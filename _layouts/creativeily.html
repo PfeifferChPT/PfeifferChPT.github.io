@@ -174,7 +174,7 @@ img.emoji {
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ page.title | default: site.name }}">
 <meta property="og:description" content="Mail-Domain von {{ page.title | default: site.name }}">
-<meta property="og:url" content="/">
+<meta property="og:url" content="{{ canonical_url }}">
 <meta property="og:site_name" content="{{ page.title | default: site.name }}">
 <meta property="og:image" content="{% if page.ogmtimage %}{{ page.ogmtimage }}{% elsif site.ogmtimage %}{{ site.ogmtimage }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}">
 <meta property="og:locale" content="{{ site.locale | slice: 0,2 | default: "de" }}">
