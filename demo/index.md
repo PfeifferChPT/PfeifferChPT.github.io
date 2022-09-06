@@ -22,8 +22,8 @@ Komplette Designs:
 <a href="5up-read-only.html">5up-read-only</a>  
 -
 -->
-<a href="light-template.html">light-template</a>  
-    
+<a href="light-template.html">light-template</a> / <a href="light-template-plus.html"> -plus</a>  
+        
   
 Angepasste Darstellungen:   
   
