@@ -2,7 +2,8 @@
 title: post-pc-cdn
 layout: post-pc-cdn
 permalink: /demo/post-pc-cdn.html
-SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
+highresolutionimg: pc-cdn_dummy-image.jpg
+thumbnail: pc-cdn_dummy-image.jpg
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
