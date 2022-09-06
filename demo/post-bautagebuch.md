@@ -2,7 +2,9 @@
 title: post-bautagebuch
 layout: post-bautagebuch
 permalink: /demo/post-bautagebuch.html
-SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
+highresolutionimg: pc-cdn_dummy-image.jpg
+thumbnail: pc-cdn_dummy-image.jpg
+author: "Stefan König"
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
