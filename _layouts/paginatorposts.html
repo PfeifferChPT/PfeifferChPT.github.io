@@ -1,13 +1,5 @@
 ---
 layout: default
-pagination:
- enabled: true
- per_page: 2
- permalink: '/page/:num/'
- title: ' - page :num'
- limit: 0
- sort_field: 'date'
- sort_reverse: true
 ---
 {% for post in paginator.posts %} 
 <blockquote><div style="  display: grid; gap: 1em;  margin: 0em;">
