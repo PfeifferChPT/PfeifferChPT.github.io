@@ -41,4 +41,4 @@ Angepasste Darstellungen:
 <a href="compress.html">compress</a>  
 <a href="print.html">print</a>  
   
-<a href="page.html">page</a>  
+<a href="home.html">home</a>  
