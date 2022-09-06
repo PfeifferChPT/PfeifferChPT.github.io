@@ -2,7 +2,9 @@
 title: gallery
 layout: gallery
 permalink: /demo/gallery.html
-SidebarBackground: https://template.pc-cdn.de/assets/bg-images/2009_03_29Colocasia_esculenta467.jpg
+photos:
+    set: examplegallerydir
+    size: 8
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
