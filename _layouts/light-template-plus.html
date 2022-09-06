@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>{% if page.title %}{{ page.title }}{% endif %}{% if site.title %} | {% endif %}{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/light-template/style.css">
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/full-page-navigation/style.css" type="text/css" media="all">
+{% include tech-fas.html %}
+</head>
+<body>
+
+<div class="header">
+<h1>{{ site.title }}{% if site.title %} | {% endif %}{{ page.title }}</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+<input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" /><label for="page-nav-toggle"> <svg class="icon--menu-toggle" viewBox="0 0 60 30"> <g class="icon-group"> <g class="icon--menu"> <path d="M 6 0 L 54 0" /> <path d="M 6 15 L 54 15" /> <path d="M 6 30 L 54 30" /> </g> <g class="icon--close"> <path d="M 15 0 L 45 30" /> <path d="M 15 30 L 45 0" /> </g> </g> </svg></label>
+
+  {% include navigation.html %}
+  </div>
+
+<div class="col-6 col-s-9">
+  <h1>{{ page.title | default: site.title }}</h1>
+  {{ content }}
+</div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+
+{% include sidebar.html %}
+     
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  {% include site-footer.html %}
+</div>
+
+</body>
+</html>
