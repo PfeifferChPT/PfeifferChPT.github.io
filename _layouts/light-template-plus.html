@@ -4,12 +4,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/content/themes/light-template/style.css">
 <link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/full-page-navigation/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css">
+<script src="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/script.js"></script>
 {% include tech-fas.html %}
 </head>
-<body>
+<body id="body" class="dark-mode">
+
 
 <div class="header">
 <h1>{{ site.title }}{% if site.title %} | {% endif %}{{ page.title }}</h1>
+<h6><button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button></h6>
 </div>
 
 <div class="row">
