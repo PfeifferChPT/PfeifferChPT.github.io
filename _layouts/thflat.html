@@ -32,14 +32,7 @@ img.emoji {
 	padding: 0 !important;
 }</style>
 
-<!--
-<link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.8/wp-includes/css/dist/block-library/style.min.css" media="all">
-<link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/5.8/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" media="all">
-<link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/5.8/wp-includes/js/mediaelement/wp-mediaelement.min.css" media="all">
-<link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/9.9.1/css/jetpack.css" media="all">
-<script type="text/javascript" src="https://c0.wp.com/c/5.8/wp-includes/js/wp-embed.min.js" id="wp-embed-js"></script>
 
--->
 <script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery.min-v3.5.1.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/js/jquery/jquery-migrate.min-v3.3.2.js" id="jquery-migrate-js"></script>
 
@@ -77,9 +70,14 @@ img.emoji {
 <link rel="icon" 			href="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}" sizes="192x192">
 <link rel="apple-touch-icon" 		href="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}">
 <meta name="msapplication-TileImage" content="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}">
+
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css">
+<script src="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/script.js"></script>
+
+
 	</head>
 
-<body class="page-template-default page " itemscope itemtype="http://schema.org/WebPage">
+<body id="body" class="dark-mode page-template-default page">
 <div id="page">
 	<div class="container">
 		<div class="row row-offcanvas row-offcanvas-left">
@@ -90,7 +88,8 @@ img.emoji {
 <h1 class="site-title display-logo">
 <a href="#" title="home" rel="home"><img itemprop="primaryImageofPage" alt="logo" src="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}" /></a></h1>
 <h2 itemprop="description" class="site-description">{{ site.title | default: page.title }}</h2>
-</div>		
+</div>	
+<button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button> 	
 {% include navigation-thflat.html %}
 									</header>
 				
