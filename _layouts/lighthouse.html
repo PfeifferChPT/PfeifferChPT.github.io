@@ -134,10 +134,15 @@
  padding-left: 2px;
  }
 </style>
+
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css">
+<script src="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/script.js"></script>
+
+
 </head>
 
 
-<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} home page-template-default page page-id-2 custom-background multiple-domain-hausbau-blog-pfeiffer-world aa-prefix-hausb-">
+<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} light-mode" id="body">
   <div id="page" class="hfeed site">
     <header id="masthead" role="banner">
       
@@ -156,7 +161,7 @@
 
 
 {% include navigation.html %}
-
+<button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button> 
 
       <div class="container"> 
         <div class="row">
