@@ -34,10 +34,13 @@
 	}</style>
 
 {% include metafavicon.html %}
+<link rel="stylesheet" href="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/style.css">
+<script src="https://template.pc-cdn.de/assets/css/minimal-dark-mode-toggle/script.js"></script>
+
 {% include header.html %}
 
 
-<body class="home page-template-default page layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}  color-scheme-{{ site.themecolor }} sidebar-closed">
+<body id="body" class="light-mode layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}  color-scheme-{{ site.themecolor }} sidebar-closed">
 <div id="page" class="hfeed site">
 	
 <header id="masthead" class="site-header" role="banner">
@@ -52,6 +55,7 @@
 <a id="sidebar-toggle" href="#" title="Seitenleiste"><span class="genericon genericon-menu"></span><span class="screen-reader-text">Seitenleiste</span></a>
 <div id="secondary" class="widget-area" role="complementary">
 
+<button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button> 
 {% include navigation-wp.html %}
 
 </div><!-- #secondary -->
