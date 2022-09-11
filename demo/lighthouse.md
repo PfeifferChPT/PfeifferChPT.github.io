@@ -2,7 +2,7 @@
 title: lighthouse
 layout: lighthouse
 permalink: /demo/lighthouse.html
-themecolor: 585E60
+themecolor: 74f225
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
