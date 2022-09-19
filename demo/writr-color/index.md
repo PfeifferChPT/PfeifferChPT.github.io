@@ -1,3 +1,6 @@
+---
+themelogo: https://template.pc-cdn.eu/assets/img/logo/transparent_logo.png
+---
 [..](https://pc-cdn-template.pc-tests.cf/demo/)  
 [blue](blue.html)  
 [blue2](blue2.html)  
