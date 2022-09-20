@@ -1,0 +1,8 @@
+---
+permalink: index.html 
+---
+Directory Listing Denied 
+> This Directory does not allow contents to be listed
+
+Verzeichnisauflistung verweigert 
+> Dieses Verzeichnis lässt keine Auflistung von Inhalten zu 
