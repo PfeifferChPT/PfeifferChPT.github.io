@@ -11,7 +11,7 @@ Komplette Designs:
 <a href="lighthouse.html">lighthouse</a>   
 <a href="ProSidebar.html">ProSidebar</a>  
 <a href="thflat.html">thflat</a>  
-<a href="writr.html">writr</a>  
+<a href="writr.html">writr</a> / <a href="/writr-color/index.html">writr-color's</a>   
 
 <a href="SimpleCSSWaves.html">Simple CSS Waves</a> 
 
