@@ -1,8 +1,5 @@
 ---
 permalink: index.html 
+title: Error 403 - Directory Listing Denied
 ---
-Directory Listing Denied 
-> This Directory does not allow contents to be listed
-
-Verzeichnisauflistung verweigert 
-> Dieses Verzeichnis lässt keine Auflistung von Inhalten zu 
+{% include error-template-401.html %}
