@@ -9,15 +9,15 @@ Don't use 'redirect_to' to avoid conflict with the page redirection plugin:
 if that is defined it takes over.
 {% endcomment %}
 
-<link rel="canonical" href="{% if {{ site.url }} %}{{ site.url }}{% endif %}{% if {{ site.baseurl }} %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}"/>
-<meta http-equiv="refresh" content="0;url={% if {{ site.url }} %}{{ site.url }}{% endif %}{% if {{ site.baseurl }} %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}" />
+<link rel="canonical" href="{% if site.url  %}{{ site.url }}{% endif %}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}"/>
+<meta http-equiv="refresh" content="0;url={% if site.url %}{{ site.url }}{% endif %}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}" />
 
 </head>
 
 <body>
 <h1>Redirecting...</h1>
-<a href="{% if {{ site.url }} %}{{ site.url }}{% endif %}{% if {{ site.baseurl }} %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}">Click here if you are not redirected.</a> 
-<script>location='{% if {{ site.url }} %}{{ site.url }}{% endif %}{% if {{ site.baseurl }} %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}'</script> 
+<a href="{% if site.url %}{{ site.url }}{% endif %}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}">Click here if you are not redirected.</a> 
+<script>location='{% if site.url %}{{ site.url }}{% endif %}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.redir_to }}'</script> 
 </body> 
 
 </html>
