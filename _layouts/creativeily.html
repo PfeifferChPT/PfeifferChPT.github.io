@@ -200,7 +200,7 @@ img.emoji {
   <div class="header-top">
       <!-- logo -->
 
-          <a href="{% if site.baseurl %}{{ site.baseurl }}/{% endif %}/" rel="home" class="logo">{{ page.title | default: site.name }}</a>
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/" rel="home" class="logo">{{ page.title | default: site.name }}</a>
     
               	<!-- Mobile Bar & Menu Icon -->
 	
