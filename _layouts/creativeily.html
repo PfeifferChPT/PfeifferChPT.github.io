@@ -225,7 +225,7 @@ img.emoji {
 </div>
 
   <div class="info">
-    <h1>E-Mail Domain von {{ page.title | default: site.name }}</h1>
+    <h1>E-Mail Domain von {% If page.title == "cookie info page"%}{{ site.title}}{% else%}{{ page.title | default: site.name }}{% endif %}</h1>
 
         
   
