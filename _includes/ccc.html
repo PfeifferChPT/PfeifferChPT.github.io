@@ -4,7 +4,7 @@
 <script type="text/plain" data-cookiefirst-category="advertising" src="https://cc.pc-cdn.de/all/advertising.js"></script>
 
 
-<script type="text/plain" data-cookiefirst-category="necessary" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/necessary.js"></script>
-<script type="text/plain" data-cookiefirst-category="functional" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/functional.js"></script>
-<script type="text/plain" data-cookiefirst-category="performance" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/performance.js"></script>
-<script type="text/plain" data-cookiefirst-category="advertising" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/advertising.js"></script>
+<script type="text/plain" data-cookiefirst-category="necessary" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}necessary.js"></script>
+<script type="text/plain" data-cookiefirst-category="functional" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}functional.js"></script>
+<script type="text/plain" data-cookiefirst-category="performance" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}performance.js"></script>
+<script type="text/plain" data-cookiefirst-category="advertising" src="https://cc.pc-cdn.de/i/{{ site.url | remove: "https://" | remove: "http://" }}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}advertising.js"></script>
