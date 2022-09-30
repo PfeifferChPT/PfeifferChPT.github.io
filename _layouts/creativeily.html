@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<title>{{ page.title | default: site.name }} &#8211; Mail-Domain von {{ page.title | default: site.name }}</title>
+<title>{{ page.title | default: site.name }} &#8211; Mail-Domain von {% if page.title == "cookie info page" %}{{ site.name }}{% else %}{{ page.title | default: site.name }}{% endif %}</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="https://fonts.pc-cdn.eu">
 <link rel="dns-prefetch" href="https://css.fonts.pc-cdn.eu">
@@ -44,7 +44,7 @@ img.emoji {
 <meta name="generator" content="Jekyll">
 
 <!-- Easy WP Meta Description -->
-<meta name="description" content="E-Mail-Domain von {{ page.title | default: site.name }}. Es gibt keinen Inhalt.">
+<meta name="description" content="E-Mail-Domain von {% if page.title == "cookie info page" %}{{ site.name }}{% else %}{{ page.title | default: site.name }}{% endif %}. Es gibt keinen Inhalt.">
 <!-- /Easy WP Meta Description -->
 
 <link rel="canonical" href="/">
@@ -173,12 +173,12 @@ img.emoji {
 <!--  Open Graph Tags -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ page.title | default: site.name }}">
-<meta property="og:description" content="Mail-Domain von {{ page.title | default: site.name }}">
+<meta property="og:description" content="Mail-Domain von {% if page.title == "cookie info page" %}{{ site.name }}{% else %}{{ page.title | default: site.name }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 <meta property="og:site_name" content="{{ page.title | default: site.name }}">
 <meta property="og:image" content="{% if page.ogmtimage %}{{ page.ogmtimage }}{% elsif site.ogmtimage %}{{ site.ogmtimage }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}">
 <meta property="og:locale" content="{{ site.locale | slice: 0,2 | default: "de" }}">
-<meta name="twitter:text:title" content="E-Mail Domain von {{ page.title | default: site.name }}">
+<meta name="twitter:text:title" content="E-Mail Domain von {% if page.title == "cookie info page" %}{{ site.name }}{% else %}{{ page.title | default: site.name }}{% endif %}">
 <meta name="twitter:card" content="summary">
 
 <!-- End  Open Graph Tags -->
