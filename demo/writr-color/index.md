@@ -12,7 +12,8 @@ themelogo: https://template.pc-cdn.eu/assets/img/logo/transparent_logo.png
 [orange2](orange2.html)  
 [purple](purple.html)  
 [red](red.html)  
-[sweetdreams](sweetdreams.html)  
+[sweet dreams](sweetdreams.html)  
+[sweet dreams frosted](sweetdreamsfrosted.html)  
 [yellow](yellow.html)  
 
 [test](test.html)
