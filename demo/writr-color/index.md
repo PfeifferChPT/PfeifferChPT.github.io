@@ -28,7 +28,7 @@ themelogo: https://template.pc-cdn.eu/assets/img/logo/transparent_logo.png
 
 ---
 
-{% for file in site.static_files %}
+{% for post in site.posts %}
   {% if file.path contains '/demo/writr-color/' %} 
    {{ file.name }} - ({{ file.path }} - {{ file.name }}
   {% endif %}
