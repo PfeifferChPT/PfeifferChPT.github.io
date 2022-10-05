@@ -24,3 +24,12 @@ themelogo: https://template.pc-cdn.eu/assets/img/logo/transparent_logo.png
 [test](test.html)
 
 [test](test.html)
+
+
+---
+
+{% for file in site.static_files %}
+  {% if file.path contains '/demo/writr-color' %} 
+   [{{ file.name }}]({{ file.path }}{{ file.name }})
+  {% endif %}
+{% endfor %}
