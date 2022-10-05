@@ -33,3 +33,11 @@ themelogo: https://template.pc-cdn.eu/assets/img/logo/transparent_logo.png
    {{ file.name }} - ({{ file.path }} - {{ file.name }} = {{ page.url }}
   {% endif %}
 {% endfor %}
+
+---
+
+{% for post in site.posts %}
+  
+{{ file.name }} - ({{ file.path }} - {{ file.name }} = {{ page.url }}
+  
+{% endfor %}
