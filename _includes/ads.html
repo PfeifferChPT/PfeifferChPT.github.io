@@ -1,4 +1,4 @@
-{% if site.ads == 'true' %}
+{% if page.ads == 'true' or site.ads == 'true' %}
 <link href="https://www.pc-cdn.de/cdn/yourls/style.css" rel="stylesheet">
 <hr/>
 <div class="werbung">	
@@ -9,5 +9,5 @@
 </div>
 <hr/>
 {% else %}
-<!-- A=F ({{ site.ads }}) -->
+<!-- A: ({{ page.ads }}•{{ site.ads }}) -->
 {% endif %}
