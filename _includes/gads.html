@@ -1,1 +1,13 @@
-<!-- enter Code:  Google Ads / example:-->
+{% if site.ads == 'true' %}
+<link href="https://www.pc-cdn.de/cdn/yourls/style.css" rel="stylesheet">
+<hr/>
+<div class="werbung">	
+	<div class="hwadwmobile">Anzeige:</div>
+	<div class="adw">
+	  <p id="adsContent" class="werbungmobile"><img src="https://template.pc-cdn.de/assets/bg-images/onepixel-transparent.png" class="adsphimgmobile"></p>
+	</div>
+</div>
+<hr/>
+{% else %}
+<!-- A=F ({{ site.ads }}) -->
+{% endif %}
