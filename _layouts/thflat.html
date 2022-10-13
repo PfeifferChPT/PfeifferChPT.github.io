@@ -64,7 +64,6 @@ img.emoji {
 	text-decoration: line-through;
 }</style>
 
-{% include gads.html %}
 {% include metafavicon.html %}
 <link rel="icon" 			href="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}" sizes="32x32">
 <link rel="icon" 			href="{% if page.themelogo %}{{ page.themelogo }}{% elsif site.themelogo %}{{ site.themelogo }}{% else %}https://template.pc-cdn.de/assets/img/logo/logo.png{% endif %}" sizes="192x192">
@@ -106,6 +105,7 @@ img.emoji {
 					</header>
 <div id="contenttoggler" class="dark-mode entry-content" itemprop="articleBody">
 {{ content }}	
+{% include ads.html %}
 <div class="article-footer">
 {% include article-footer.html %}
 </div>															</div>
