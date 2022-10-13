@@ -1,6 +1,6 @@
 <!-- A: ({{ page.ads }}•{{ site.ads }}) -->
 
-{% if page.ads == "true" %}
+{% if page.ads == "enabled" %}
 <link href="https://www.pc-cdn.de/cdn/yourls/style.css" rel="stylesheet">
 <div class="werbung">	
 	<div class="hwadwmobile">Anzeige:</div>
@@ -8,7 +8,7 @@
 	  <p id="adsContent" class="werbungmobile"><img src="https://template.pc-cdn.de/assets/bg-images/onepixel-transparent.png" class="adsphimgmobile"></p>
 	</div>
 </div>
-{% elsif site.ads == "true" %}
+{% elsif site.ads == "enabled" %}
 <link href="https://www.pc-cdn.de/cdn/yourls/style.css" rel="stylesheet">
 <div class="werbung">	
 	<div class="hwadwmobile">Anzeige:</div>
