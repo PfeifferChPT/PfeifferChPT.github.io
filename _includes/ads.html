@@ -1,7 +1,7 @@
 <!-- A: ({{ page.ads }}•{{ site.ads }}) -->
-{{ layout }}
+{{ layout | replace: '{"layout"=>"', "" | replace: '"}', ""}}
 {% if page.ads == "enabled" %}
-<link href="https://www.pc-cdn.de/cdn/ads-style/{{ layout }}.css" rel="stylesheet">
+<link href="https://www.pc-cdn.de/cdn/ads-style/{{ layout | replace: '{"layout"=>"', "" | replace: '"}', ""}}.css" rel="stylesheet">
 <div class="werbung">	
 	<div class="hwadwmobile">Anzeige:</div>
 	<div class="adw">
@@ -9,7 +9,7 @@
 	</div>
 </div>
 {% elsif site.ads == "enabled" %}
-<link href="https://www.pc-cdn.de/cdn/ads-style/{{ layout }}.css" rel="stylesheet">
+<link href="https://www.pc-cdn.de/cdn/ads-style/{{ layout | replace: '{"layout"=>"', "" | replace: '"}', ""}}.css" rel="stylesheet">
 <div class="werbung">	
 	<div class="hwadwmobile">Anzeige:</div>
 	<div class="adw">
