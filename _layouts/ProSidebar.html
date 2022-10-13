@@ -20,7 +20,7 @@
 
 </head>
 <body id="body" class="dark-mode">
-{% include gads.html %}
+
 <!-- partial:index.partial.html -->
 <div class="layout has-sidebar fixed-sidebar fixed-header">
   <aside id="sidebar" class="sidebar break-point-lg has-bg-image">
@@ -59,6 +59,7 @@
       <div>
         <h1>{{ page.title }}</h1>
         {{ content }}
+        {% include ads.html %}
      <!-- article footer -->
      {% include article-footer.html %}
       </div>
