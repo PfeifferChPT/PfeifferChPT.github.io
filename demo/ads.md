@@ -2,6 +2,6 @@
 title: anzeige
 layout: default
 permalink: /demo/ads.html
-ads: true
+ads: enabled
 ---
 {% include zzz-example-content.html %}
