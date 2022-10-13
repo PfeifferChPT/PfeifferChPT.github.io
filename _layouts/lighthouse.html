@@ -113,7 +113,6 @@
 
 <!-- End Open Graph Tags -->
 
-{% include gads.html %}
 {% include metafavicon.html %}
 
 <link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/css/full-page-navigation/style.css" type="text/css" media="all">
@@ -195,6 +194,7 @@
 	<div class="entry-content">
 {{ content }}
 	</div>
+{% include ads.html %}
 <!-- .entry-content -->
 
 <footer class="entry-footer">
