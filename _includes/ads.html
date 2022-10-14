@@ -1,10 +1,11 @@
 {% if page.ads == "enabled" %}
 
 {% assign ads-style-layout = layout | url_encode | remove: '%7B%22layout%22%3D%3E%22' | remove: '%22%7D' | remove: '%7B%7D' %}
- {% if ads-style-layout == ""  or ads-style-layout == nil or ads-style-layout == blank %}
+<!-- {{ ads-style-layout }} -->
+ {% if ads-style-layout == ''  or ads-style-layout == nil or ads-style-layout == blank %}
   {% assign ads-style-layout = "null" %}
  {% endif %}
-
+<!-- {{ ads-style-layout }} -->
 <link href="https://www.pc-cdn.de/cdn/ads-style/{{ ads-style-layout }}.css" rel="stylesheet">
 <div class="werbung">	
 	<div class="hwadwmobile">Anzeige:</div>
