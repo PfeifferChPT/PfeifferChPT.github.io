@@ -1,5 +1,5 @@
 <!--
-{{ layout | remove: '{"layout"=>"' | remove: '"%7D'}}  
+{{ layout | url_encode | remove: '{"layout"=>"' | remove: '"%7D'}}  
 -->
 <!-- A: ({{ page.ads }}•{{ site.ads }}) -->
 {% if page.ads == "enabled" %}
