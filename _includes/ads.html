@@ -1,7 +1,3 @@
-<!--
-{{ layout | url_encode | remove: '%7B%22layout%22%3D%3E%22' | remove: '%22%7D'}}  
--->
-<!-- A: ({{ page.ads }}•{{ site.ads }}) -->
 {% if page.ads == "enabled" %}
 <link href="https://www.pc-cdn.de/cdn/ads-style/{{ layout | url_encode | remove: '%7B%22layout%22%3D%3E%22' | remove: '%22%7D'}}.css" rel="stylesheet">
 <div class="werbung">	
