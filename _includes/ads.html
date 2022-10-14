@@ -1,7 +1,7 @@
 {% if page.ads == "enabled" %}
 
 {% assign ads-style-layout = layout | url_encode | remove: '%7B%22layout%22%3D%3E%22' | remove: '%22%7D' | remove: '%7B%7D' %}
- {% if ads-style-layout == "" %}
+ {% if ads-style-layout == ""  or ads-style-layout == "%7B%7D" %}
   {% assign ads-style-layout = "null" %}
  {% endif %}
 
