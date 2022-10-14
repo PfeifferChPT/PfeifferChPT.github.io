@@ -1,4 +1,7 @@
-{{ layout | cgi_escape | remove: '{"layout"=>"' | remove: '"'}}
+{{ layout | remove: '{"layout"=>"' | remove: '"'}}  
+{{ page.layout }}  
+{{ site.layout }}  
+
 <!-- A: ({{ page.ads }}•{{ site.ads }}) -->
 {% if page.ads == "enabled" %}
 <link href="https://www.pc-cdn.de/cdn/ads-style/{{ layout | remove: '{"layout"=>"' | remove: '"'}}.css" rel="stylesheet">
