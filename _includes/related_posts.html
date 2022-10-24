@@ -3,7 +3,9 @@
 <div class="panel-heading"><div class="genericon genericon-portfolio">&nbsp;</div>Verwandte Artikel:</div> 
 <div class="panel-body"> 
 {% for post in site.related_posts %} 
+{% unless post.categories contains "notshowingmyhiddencategeory"%} 
 <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> 
+{% endunless %}
 {% endfor %}
 </div> 
 </div>
