@@ -24,7 +24,19 @@
 		var ajaxurl  = 'https://nipp.es/admin/admin-ajax.php';
 	//]]>
 	</script>
-	
+<style>
+.ynav a:link {
+  color: #2d87b5;
+}
+.ynav a:visited {
+  color: #2d87b5;
+}
+.ynav a:hover {
+  color: #2d87b5;
+}
+.ynav a:active {
+  color: #2d87b5;
+}	
 </head>
 <body class="mdloader mobile" onload="md.load(allowfrom+resurl)">
 
@@ -52,7 +64,7 @@ document.body.style.backgroundImage= 'url(' + randSelect + ')';
   <span class="site-title">{{ site.title }}</span> <span class="site-description">{{ site.subtitle }}</span> 
  </div>
 <hr>
- <span style="a:link {color: #2d87b5;} a:active { color:#2r88b6;}"><p>{% include navigation.html %}</p></span>
+ <span class="ynav"><p>{% include navigation.html %}</p></span>
 <hr>
  <div id=content>{{ content }}</div>
 </div>
