@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | slice: 0,2 | default: "de" }}">
+<head>
+	<title>{% if page.title %}{{ page.title }}{% endif %}{% if site.title %} | {% endif %}{{ site.title }}{% if site.subtitle %} - {% endif %}{{ site.subtitle }}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% include cookiebanner.html %}
+{% include ccc.html %}
+<meta name="viewport" content="initial-scale=1">
+{% include metafavicon.html %}
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta charset="UTF-8">
+{% include tech-fas.html %}
+<meta name="msapplication-TileImage" content="https://2.c84fh.cf/favicon/mstile-150x150.png">
+	<meta name="generator" content="YOURLS 1.9.1" />
+	<meta name="description" content="YOURLS &raquo; Your Own URL Shortener' | https://2.c84fh.cf" />
+	    <link rel="shortcut icon" href="https://2.c84fh.cf/images/favicon.svg" />	<script src="https://2.c84fh.cf/js/jquery-3.5.1.min.js?v=1.9.1" type="text/javascript"></script>
+	<script src="https://2.c84fh.cf/js/common.js?v=1.9.1" type="text/javascript"></script>
+	<script src="https://2.c84fh.cf/js/jquery.notifybar.js?v=1.9.1" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://2.c84fh.cf/css/style.css?v=1.9.1" type="text/css" media="screen" />
+							<script type="text/javascript">
+	//<![CDATA[
+		var ajaxurl  = 'https://2.c84fh.cf/admin/admin-ajax.php';
+	//]]>
+	</script>
+	
+</head>
+<body class="mdloader mobile" onload="md.load(allowfrom+resurl)">
+
+<script>
+
+var myArray = ['https://2.c84fh.cf/user/plugins/random-bg/img/bg_yourls.png','https://2.c84fh.cf/user/plugins/random-bg/img/bg_fuzzy_bits.png','https://2.c84fh.cf/user/plugins/random-bg/img/bg_life.png','https://2.c84fh.cf/user/plugins/random-bg/img/bg_fuzzy.png','https://2.c84fh.cf/user/plugins/random-bg/img/bg_diag.png', 'https://2.c84fh.cf/user/plugins/random-bg/img/bg_cross.png','https://2.c84fh.cf/user/plugins/random-bg/img/bg_circles.png','https://2.c84fh.cf/user/plugins/random-bg/img/bg_boobs.png','https://2.c84fh.cf/user/plugins/random-bg/img/bg_ants.png'];
+
+
+function RandArray(array){
+ var rand = Math.random()*array.length | 0;
+ var randSelect = array[rand];
+ return randSelect;
+ } 
+var randSelect = RandArray(myArray); 
+
+
+/*
+var randSelect = "https://2.c84fh.cf/user/plugins/random-bg/img/bg_fuzzy_bits.png";
+*/
+document.body.style.backgroundImage= 'url(' + randSelect + ')';
+</script>
+
+<div id="wrap">
+ <div id=header class="theme">
+  <span class="site-title">{{ site.title }}</span> <span class="site-description">{{ site.subtitle }}</span> 
+ </div>
+ <div id=content>{{ content }}</div>
+</div>
+
+<footer id="footer" role="contentinfo">
+{% include navigation.html %}
+</footer>
+		
+</body>
+</html>
