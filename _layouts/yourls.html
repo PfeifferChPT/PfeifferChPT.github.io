@@ -51,11 +51,14 @@ document.body.style.backgroundImage= 'url(' + randSelect + ')';
  <div id=header class="theme">
   <span class="site-title">{{ site.title }}</span> <span class="site-description">{{ site.subtitle }}</span> 
  </div>
+<hr>
+ <p>{% include navigation.html %}</p>
+<hr>
  <div id=content>{{ content }}</div>
 </div>
 
 <footer id="footer" role="contentinfo">
-<p>{% include navigation.html %}</p>
+{% include site-footer.html %}
 </footer>
 		
 </body>
